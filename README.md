@@ -12,8 +12,8 @@ Versions
 PHP Extension
 -------------
 
-calendar, curl, exif, ftp, gd, gettext, iconv, imap, mbstring, mcrypt, mime_magic, mysqli, openssl,
-pdo_mysql, shmop, sockets, sysvmsg, tidy, wddx, xsl, zip, zlib
+mysql, curl, gd, intl php-pear, imagick, imap, mcrypt, memcache, pspell, 
+recode, snmp, sqlite, tidy, xmlrpc, xsl
 
 
 Docker compose example

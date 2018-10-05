@@ -9,6 +9,8 @@ RUN apt-get install -y apache2 php5 libapache2-mod-php5 \
 RUN apt-get autoremove --purge && apt-get clean
 
 RUN a2enmod rewrite
+COPY 000-default.conf /etc/apache2/sites-enabled/
+
 COPY php.ini /etc/php5/php.ini
 
 WORKDIR /var/www/html
